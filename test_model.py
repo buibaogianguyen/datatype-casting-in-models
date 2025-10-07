@@ -19,3 +19,5 @@ class TestModel(nn.Module):
         x = self.linear2(x)
         x = self.bn2(x)
         x = self.relu(x)
+
+        return x
